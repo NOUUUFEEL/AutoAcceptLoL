@@ -1,0 +1,14 @@
+﻿<Window x:Class="AutoAcceptLoL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AutoAcceptLoL" Height="200" Width="300">
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <CheckBox x:Name="AutoAcceptCheckbox" Content="Auto-Accept" FontSize="16"
+                      Margin="0 0 0 10"
+                      Checked="AutoAcceptCheckbox_Checked"
+                      Unchecked="AutoAcceptCheckbox_Unchecked"/>
+            <TextBlock x:Name="StatusText" Text="Statut : Inactif" FontSize="14" TextAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Window>
